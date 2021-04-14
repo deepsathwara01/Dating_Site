@@ -10,11 +10,6 @@
 </head>
 <body>
 
-<!--<label for="textDark" class="darkmode">Dark mode :- </label>-->
-<!--<label class="switch">-->
-<!--    <input type="checkbox" name="dark" value="on">-->
-<!--    <span class="slider round"></span>-->
-<!--</label>-->
 <?php
 error_reporting(0);
 $email= $_POST['email'];
@@ -117,22 +112,6 @@ if(isset($_POST['submit'])) {
 
         }
     }
-
-//    if(isset($_POST['submit'])) {
-//        if ($conn->connect_error) {
-//            die("Connection failed" . $conn->connect_error);
-//        }
-//        $email = $_POST['email'];
-//        $username1 = $_POST['user'];
-//        $pwd = $_POST['password'];
-//        $sql = "INSERT INTO loginpage (email, username, password) VALUES ('$email','$username1','$pwd')";
-//
-//        if ($conn->query($sql) === TRUE) {
-//            echo "New record inserted";
-//        } else {
-//            echo "error" . $sql . "<br>" . $conn->error;
-//        }
-//    }
 ?>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
